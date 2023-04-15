@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from Tianabot import LOGGER
-from Tianabot.modules.users import get_user_id
+from cutie import LOGGER
+from cutie.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
