@@ -1,4 +1,4 @@
-from Tianabot.modules.disable import (
+from cutie.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
