@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/prince-botz/tianabot"), 
+                  [InlineKeyboardButton(text="𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/iamproaf/cutie"), 
                    InlineKeyboardButton(text=" 𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -1066,7 +1066,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝙏𝙞𝙖𝙣𝙖𝘽𝙤𝙩 𝙐𝙥𝙙𝙖𝙩𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✅")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "𝙈𝙞𝙨𝙨 𝙘𝙪𝙩𝙞𝙚 𝙐𝙥𝙙𝙖𝙩𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮✅")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
