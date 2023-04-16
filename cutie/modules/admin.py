@@ -708,7 +708,7 @@ dispatcher.add_handler(SETCHAT_TITLE_HANDLER)
 dispatcher.add_handler(SETSTICKET_HANDLER)
 dispatcher.add_handler(SETDESC_HANDLER)
 
-__mod_name__ = "☯︎ 𝘼𝙙𝙢𝙞𝙣 ☯︎"
+__mod_name__ = "Admin"
 __command_list__ = [
     "adminlist",
     "admins",
