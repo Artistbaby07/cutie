@@ -102,4 +102,4 @@ __help__ = """
  ❍ /zombies clean *:* Removes the deleted accounts from the group.
 """
 
-__mod_name__ = "☯︎ 𝙕𝙤𝙢𝙗𝙞𝙚 ☯︎"
+__mod_name__ = "Zombies"
