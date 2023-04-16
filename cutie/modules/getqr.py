@@ -157,7 +157,7 @@ __help__ = """
  - /makeqr <content>: make a qr code from the given message (text, link, etc...)
 """
 
-__mod_name__ = "☯︎ 𝙂𝙚𝙣𝙌𝙧 ☯︎"
+__mod_name__ = "Genqr"
 
 GETQR_HANDLER = CommandHandler("getqr", parseqr)
 MAKEQR_HANDLER = CommandHandler("makeqr", makeqr)
