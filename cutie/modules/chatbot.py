@@ -162,7 +162,7 @@ def list_all_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 
-__mod_name__ = "☯︎ 𝘾𝙝𝙖𝙩𝙗𝙤𝙩 ☯︎"
+__mod_name__ = "Chatbot"
 __help__ = """
 𝙘𝙪𝙩𝙞𝙚 AI ChatBot is the only ai system which can detect & reply upto 200 language's
 
