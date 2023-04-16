@@ -63,7 +63,7 @@ async def anitchnl(_, message):
         await asyncio.sleep(7)
         await ti.delete()        
 
-__mod_name__ = "☯︎ 𝘼𝙣𝙩𝙞-𝙘𝙝𝙖𝙣𝙣𝙚𝙡 ☯︎"
+__mod_name__ = "Anti-channel"
 __help__ = """
 your groups to stop anonymous channels sending messages into your chats.
 **Type of messages**
