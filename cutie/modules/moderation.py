@@ -148,7 +148,7 @@ dispatcher.add_handler(RMMOD)
 dispatcher.add_handler(MODLIST)
 dispatcher.add_handler(MODCHECK)
 
-__mod_name__ = "☯︎ 𝙈𝙤𝙙𝙚𝙧𝙖𝙩𝙞𝙤𝙣 ☯︎"
+__mod_name__ = "Moderation"
 
 
 __command_list__ = ["addmod", "rmmod", "modlist", "modcheck"]
