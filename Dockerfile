@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/cutie
-RUN git clone -b shiken https://github.com/teamofdevil-x/tiana /root/cutie
+RUN git clone -b shiken https://github.com/Artistbaby07/cutie /root/cutie
 WORKDIR /root/cutie
 
 #Copy config file to /root/cutie
