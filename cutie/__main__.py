@@ -12,7 +12,7 @@ from telegram.utils.helpers import escape_markdown
 from cutie.modules.helper_funcs.admin_rights import user_can_ban
 from cutie.modules.helper_funcs.readable_time import get_readable_time
 
-from tg_bot import (
+from cutie import (
     dispatcher,
     since_time_start,
     updater,
