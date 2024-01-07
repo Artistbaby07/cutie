@@ -57,6 +57,7 @@ search_engine_parser
 pytz
 Skem
 tswift
+httpcore
 redis
 aiofiles
 pyromod
